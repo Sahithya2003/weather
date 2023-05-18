@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link href = "weather.css" rel = "stylesheet" type = "text/css" />
+  </head>
+  <body>
+    <section>
+  <div class='air air1'></div>
+  <div class='air air2'></div>
+  <div class='air air3'></div>
+  <div class='air air4'></div>
+
+   
+        <div class="bg-blue-500 py-3 mb-3 px-4 text-4xl text-white">
+		Weather app
+	</div>
+   
+    <div class="flex flex-col justify-center">
+        <div class="flex justify-center gap-4 py-4">
+      <label for="city">Enter City:</label>
+      <input type="text" id="city" class="border-2">
+      </div>
+      <button id="submit-btn" class="p-4"><a href="#_" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-blue-600 border border-blue-700 rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" data-rounded="rounded-md" data-primary="blue-600" data-primary-reset="{}">
+Submit
+</a></button>
+    </div>
+    <div id="weather-info"></div>
+
+</section>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
